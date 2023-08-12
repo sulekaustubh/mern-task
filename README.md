@@ -11,7 +11,44 @@ Here is a step-by-step guide that will take less than 2 minutes to run this proj
 
    ```
 
-2. Enter the backend directory
+2. Enter the backend directory:
+
    ```sh
    cd backend
+   ```
+
+3. Install the backend npm modules/packages/dependencies:
+
+   ```sh
+   npm i
+   ```
+
+4. Run the backend server:
+
+   ```sh
+   nodemon index.js
+   ```
+
+5. Go back to the root directory:
+
+   ```sh
+   cd ..
+   ```
+
+6. Enter the frontend directory:
+
+   ```sh
+   cd frontend
+   ```
+
+7. Install the frontend npm modules/packages/dependencies:
+
+   ```sh
+   npm i
+   ```
+
+8. Run the frontend server:
+
+   ```sh
+   npm run dev
    ```
