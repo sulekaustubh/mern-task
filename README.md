@@ -4,7 +4,7 @@ Here is a step-by-step guide that will take less than 2 minutes to run this proj
 
 ## Installation
 
-1. Clone the repository:
+1. Clone the repository or download the zip file:
 
    ```sh
    git clone https://github.com/sulekaustubh/mern-task.git
@@ -17,7 +17,7 @@ Here is a step-by-step guide that will take less than 2 minutes to run this proj
    cd backend
    ```
 
-3. Install the backend npm modules/packages/dependencies:
+3. Install the backend npm modules/dependencies:
 
    ```sh
    npm i
@@ -29,25 +29,19 @@ Here is a step-by-step guide that will take less than 2 minutes to run this proj
    nodemon index.js
    ```
 
-5. Go back to the root directory:
-
-   ```sh
-   cd ..
-   ```
-
-6. Enter the frontend directory:
+5. Open a new terminal and enter the frontend directory:
 
    ```sh
    cd frontend
    ```
 
-7. Install the frontend npm modules/packages/dependencies:
+6. Install the frontend npm modules/dependencies:
 
    ```sh
    npm i
    ```
 
-8. Run the frontend server:
+7. Run the frontend server:
 
    ```sh
    npm run dev
