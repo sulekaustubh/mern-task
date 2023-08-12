@@ -1,6 +1,6 @@
 # Full Stack ToDo App built with MERN stack
 
-Here is a step-by-step guide that will take less than 2 minutes to run this project locally on your machine.
+Here is a step-by-step guide that will take less than 2 minutes to run this project locally on your machine &#x1F60A;
 
 ## Installation
 
