@@ -42,9 +42,9 @@ export default function Navbar() {
         <div>
           <h1 className={classes.name}>{user.name}</h1>
           <p className={classes.email}>{user.email}</p>
-          <Link to="/edit-profile" className={classes.editBtn}>
+          {/* <Link to="/edit-profile" className={classes.editBtn}>
             Edit
-          </Link>
+          </Link> */}
         </div>
       </div>
       <nav>
