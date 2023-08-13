@@ -49,3 +49,11 @@ To checkout my designing skills, visit https://padhakoo.in/
     ```sh
     npm run dev
     ```
+
+## You can signup & login
+
+![My Image](images/home.png)
+
+## You can add tasks, and delete them as well, or mark them as complete
+
+![My Image](images/add.png)
