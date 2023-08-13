@@ -1,3 +1,11 @@
+## You can signup & login
+
+![My Image](images/home.png)
+
+## You can add tasks, and delete them as well, or mark them as complete
+
+![My Image](images/add.png)
+
 # Full Stack ToDo App built with MERN stack
 
 Here is a step-by-step guide that will take less than 2 minutes to run this project locally on your machine. &#x1F60A;
@@ -49,11 +57,3 @@ To checkout my designing skills, visit https://padhakoo.in/
     ```sh
     npm run dev
     ```
-
-## You can signup & login
-
-![My Image](images/home.png)
-
-## You can add tasks, and delete them as well, or mark them as complete
-
-![My Image](images/add.png)
