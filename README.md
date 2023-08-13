@@ -3,7 +3,7 @@
 Here is a step-by-step guide that will take less than 2 minutes to run this project locally on your machine. &#x1F60A;
 <br></br>
 Note: Almost no-efforts were put into designing the UI. Complete focus was on making it functional.<br></br>
-To checkout my designing skills, visit https://padhakoo.in/
+To checkout my designing skills, visit <a target='_blank' href="https://padhakoo.in/"/> 
 
 ## Installation
 
