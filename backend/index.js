@@ -13,7 +13,13 @@ const app = express();
 const PORT = process.env.PORT || 8000;
 
 // middlewares
-app.use(cors());
+// app.use(cors());
+app.use(
+	cors({
+		credentials: true,
+		origin: `${process.env.FRONTEND || process.env.CLIENT_URL}`,
+	})
+);
 app.use(morgan('tiny'));
 app.use(express.json());
 app.use(cookieParser());
@@ -36,10 +42,9 @@ const connectDB = async () => {
 		// mongoose.connect() is an inbuilt method that simplies connecting with MongoDB using a connection string
 		await mongoose.connect(process.env.DB_CONNECTION_STRING);
 		console.log('MongoDB Connected');
-  }
-  catch (err) {
-    console.log(err);
-    // force termination if any errors occur
+	} catch (err) {
+		console.log(err);
+		// force termination if any errors occur
 		process.exit(1);
 	}
 };
