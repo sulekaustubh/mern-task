@@ -9,7 +9,8 @@ export default defineConfig({
 		proxy: {
 			'/api': {
 				// target: 'http://localhost:8000',
-				target: `${process.env.BACKEND || 'http://localhost:8000'}`,
+				target: 'https://todo-backend-da3b.onrender.com',
+				// target: `${process.env.BACKEND || 'http://localhost:8000'}`,
 			},
 		},
 	},

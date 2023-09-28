@@ -10,14 +10,18 @@ import allRoutes from './routes/index.js';
 // invoke express and run an instance using variable
 const app = express();
 // default port or pick from .env
-const PORT = process.env.PORT || 8000;
+// const PORT = process.env.PORT || 8000;
+const PORT = process.env.PORT;
+// const PORT = 8000;
 
 // middlewares
 // app.use(cors());
 app.use(
 	cors({
 		credentials: true,
-		origin: `${process.env.FRONTEND || process.env.CLIENT_URL}`,
+		origin: `${process.env.FRONTEND}`,
+		// origin: `${process.env.FRONTEND || process.env.CLIENT_URL}`,
+		// origin: `${process.env.CLIENT_URL}`,
 	})
 );
 app.use(morgan('tiny'));
